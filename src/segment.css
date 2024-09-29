@@ -1,0 +1,50 @@
+.save-button {
+  transition: opacity 0.1s ease, visibility 0.3s ease;
+}
+
+.save-button.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+.select {
+  margin: 10px;
+  padding: 10px;
+}
+
+.drop {
+  width: 400px; /* Set a fixed width */
+  padding: 5px;
+}
+.schema {
+  display: flex;
+}
+.delete-btn {
+  width: 100px;
+  height: 30px;
+}
+.traits {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px;
+  margin: 10px;
+  color: #0cf1cbfb;
+}
+.delete-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5em;
+  height: 50px;
+  width: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.delete-btn:hover {
+  color: rgba(9, 243, 231, 0.7);
+}
+
+.delete-btn:focus {
+  outline: none;
+}
